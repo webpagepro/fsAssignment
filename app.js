@@ -1,5 +1,5 @@
 const fs = require('fs');
-/*
+
 fs.readFile("./challenge1/info.txt", "utf8", (data, err) =>
 {
     if(err){      
@@ -49,7 +49,7 @@ for(let i = 0; i < data.length; i++){
 }
 fs.writeFileSync("./challenge5/info.txt", newData);
 
-*/
+
 let files;
 fs.readdir("./challenge6/", (data, err) => {
     if(err){
